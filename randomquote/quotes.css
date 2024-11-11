@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border:2px solid red;
+   height:100vh;
+
+}
+div{
+    text-align: center;
+    font-size: 2rem;
+height: 50px;
+    width: 100vw;
+    font-size: 2em; /* Adjust as needed */
+    font-weight: bold; /* Optional */
+    background: linear-gradient(45deg, #d06bff, #19f58e, #ff0055);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+/* Button Styling */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4A90E2; /* Customize color */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  /* Hover Effect */
+  .button:hover {
+    background-color: #357ABD; /* Darken on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Active State */
+  .button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
